@@ -8,4 +8,4 @@ submission_df = pd.DataFrame({
 })
 
 submission_df.to_csv('my_final_submission.csv', index=False)
-print("Done! Your results are saved in 'my_final_submission.csv'")
+print("Saved in 'my_final_submission.csv'")
