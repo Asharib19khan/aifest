@@ -12,4 +12,4 @@ lgbm_model = lgb.LGBMClassifier(
 lgbm_model.fit(X_train, y_train)
 
 lgbm_predictions = lgbm_model.predict(X_test)
-print(f"🔥 LightGBM Accuracy: {accuracy_score(y_test, lgbm_predictions):.2%}")
+print(f"LightGBM Accuracy: {accuracy_score(y_test, lgbm_predictions):.2%}")

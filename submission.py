@@ -1,4 +1,4 @@
-final_predictions = model.predict(X_test_official) # X_test_official is your cleaned test.csv
+final_predictions = model.predict(X_test_official)
 
 import pandas as pd
 
